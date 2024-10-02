@@ -1,0 +1,173 @@
+
+  /* 
+    Programmer Name: 06
+    CSS style used for all pages
+    Reference: https://www.w3schools.com/ 
+  */
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.center{
+  text-align: center;
+}
+.title{
+  color: #00549a;
+  text-align:center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subTitle{
+  color: #00549a;
+  text-align:left;
+  font-size: 21px;
+  font-weight: bold;
+  padding: 3px, 5px, 10px, 15px;
+}
+
+/* message styles */
+.info {
+  color: #00549a; 
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left; 
+}
+
+.infolight {
+  color: #00549a; 
+  font-size: 18px;
+  text-align: left; 
+  padding: 3px;
+}
+.success {
+  color: #64a321;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.warning {
+  color: #9F6000;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left; 
+}
+.error{
+  color: #D8000C;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+.validation{
+  color: #D63301;
+}
+
+/* doctors table styles */
+#doctors,#patients
+{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#doctors td, 
+#patients td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#doctors tr:nth-child(even),
+#patients tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+#doctors tr:hover,
+#patients tr:hover{
+  background-color: #ddd;
+}
+
+#doctors th,
+#patients th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #00549a;
+  color: white;
+}
+
+.tblNoBorder{
+  width: 100%;
+  border: 0;
+}
+
+.tblNoBorder td{
+  vertical-align: top;
+  align-items: center;
+  align-content: center;
+}
+/* div style*/
+.divForm{
+  width: 630px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left:100px;
+}
+
+.divBtn {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* input textbox styles */
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=date]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* radio button */
+input[type="radio"] 
+{
+  font-size: 15px;
+  margin: 6px;
+}
+  /* button styles */
+  .btn {
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 9px 18px;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: #00549a;
+    color: #ffffff;
+    margin: 10px 10px 30px 10px;
+  }
+  .btn_submit {
+  
+    border: ffffff;
+   
+}
+
